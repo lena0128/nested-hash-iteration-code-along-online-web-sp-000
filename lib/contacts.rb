@@ -19,7 +19,6 @@ contacts.each do |person, data|
   data.each do |key, value|
     value.each do |flavor|
         flavor.delete("strawberry")
-      end
      end
    end
 end
